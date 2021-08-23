@@ -7,13 +7,6 @@ header {
     padding: 10px 20px;
 }
 
-h1 {
-    font-family: 'Press Start 2P', sans-serif;
-    color: #fff;
-    text-shadow: 3px 3px 0px #000;
-    
-}
-
 nav {
     text-align: right;
 }
@@ -37,7 +30,7 @@ a::before {
     margin-right: 10px;
 }
 
-#button {
+.button {
     display: inline-block;
     background-color: #F25470;
     box-shadow: 5px 5px 0px #000000;
@@ -46,7 +39,17 @@ a::before {
     transition: transform 100ms cubic-bezier(0.55,-0.54, 0.26, 1.8), opacity 200ms ease-in;
 }
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
     opacity: 0.7;
+}
+
+
+h1 {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 40px;
+    color: #F25470;
+    box-shadow: ;
+    text-shadow: 3px 3px 2px #000;
+    
 }

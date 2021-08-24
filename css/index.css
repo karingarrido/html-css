@@ -43,13 +43,3 @@ a::before {
     transform: scale(1.08);
     opacity: 0.7;
 }
-
-
-h1 {
-    font-family: 'Press Start 2P', sans-serif;
-    font-size: 40px;
-    color: #F25470;
-    box-shadow: ;
-    text-shadow: 3px 3px 2px #000;
-    
-}
